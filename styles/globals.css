@@ -10,6 +10,7 @@
   }
 
   .divider {
+    height: 1px;
     background-color: #E5E7EB; /* Adjust color to match your design */
     padding: 1rem; /* Adjust padding as needed */
     border-radius: 0.5rem; /* Adjust border radius as needed */
