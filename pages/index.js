@@ -20,13 +20,13 @@ export default function Home() {
 
 
       <Banner />
-      <hr className="my-1 h-px border-0  bg-sky-200" />
+      <div className="hr"></div>
       <Products />
-      <hr className="my-1 h-px border-0 bg-sky-200" />
+      <div className="hr"></div>
       <Collection />
-      <hr className="my-1 h-px border-0 bg-sky-200" />
+      <div className="hr"></div>
       <Newsletter />
-      <hr className="my-1 h-px border-0 bg-sky-200" />
+      <div className="hr"></div>
       <Footer />
     </main>
   );

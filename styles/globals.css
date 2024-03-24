@@ -3,3 +3,10 @@
 @tailwind utilities;
 
 
+.hr {
+    height: 1px; /* Set a fixed height */
+    background-color: #D1D5DB; /* Adjust color to match your design */
+    margin: 16px 0; /* Add margin to create space */
+  }
+
+
