@@ -45,7 +45,7 @@ const Banner = () => {
     if (isLoading) {
         // Skeleton Loading UI while data is being fetched
         return (
-            <div className="bg-gray-200 p-4 rounded-lg mt-10 lg:mt-0">
+            <div className="divider">
                 <div className="flex items-center">
                     <div className="ml-4">
                         <div className="animate-pulse w-40 h-4 bg-gray-400 mb-2"></div>

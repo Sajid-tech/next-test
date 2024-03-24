@@ -52,7 +52,7 @@ const Products = () => {
 
     if (isLoading) {
         return (
-            <div className="bg-gray-200 p-4 rounded-lg mt-10 lg:mt-0">
+            <div className="divider">
                 <div className="grid grid-cols-1 gap-y-8 sm:grid-cols-2 lg:grid-cols-5">
                     {[...Array(5)].map((_, index) => (
                         <div key={index} className="bg-white border border-gray-300 rounded-xl shadow">
