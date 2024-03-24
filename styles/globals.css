@@ -10,17 +10,9 @@
   }
 
   .divider {
-    height: 1px;
+    height: 1px; /* Set a fixed height */
     background-color: #E5E7EB; /* Adjust color to match your design */
-    padding: 1rem; /* Adjust padding as needed */
-    border-radius: 0.5rem; /* Adjust border radius as needed */
     margin-top: 2.5rem; /* Adjust top margin as needed */
-  }
-  
-  /* On large screens, remove top margin */
-  @media (min-width: 1024px) {
-    .divider {
-      margin-top: 0;
-    }
+    margin-bottom: 2.5rem; /* Adjust bottom margin as needed */
   }
 
